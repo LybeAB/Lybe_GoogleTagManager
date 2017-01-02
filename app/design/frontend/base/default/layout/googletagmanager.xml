@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <!-- Lybe_GoogleTagManager -->
+        <reference name="head">
+            <block type="googletagmanager/gtm" name="google_tag_manager_script" template="lybe/googletagmanager/gtm.phtml" before="-" />
+        </reference>
+        <reference name="after_body_start">
+            <block type="googletagmanager/gtm" name="google_tag_manager_noscript" template="lybe/googletagmanager/noscript.phtml" />
+        </reference>
+    </default>
+</layout>
+

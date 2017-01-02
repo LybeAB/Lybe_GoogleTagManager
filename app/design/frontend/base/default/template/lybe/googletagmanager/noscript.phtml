@@ -1,0 +1,17 @@
+<?php
+/**
+ * Google Tag Manager Template
+ *
+ * @category    Lybe
+ * @package     Lybe_GoogleTagManager
+ * @since       0.1.0.0
+ * @author      Björn Christensson <bjorn.christensson@lybe.se>
+ *
+ */
+?>
+<?php if($this->getContainerId()) : ?>
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=<?php echo $this->getContainerId(); ?>"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager -->
+<?php endif; ?>

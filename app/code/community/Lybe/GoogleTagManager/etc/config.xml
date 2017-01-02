@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Lybe_GoogleTagManager>
+            <version>0.1.0.0</version>
+        </Lybe_GoogleTagManager>
+    </modules>
+    <global>
+        <blocks>
+            <googletagmanager>
+                <class>Lybe_GoogleTagManager_Block</class>
+            </googletagmanager>
+        </blocks>
+        <helpers>
+            <googletagmanager>
+                <class>Lybe_GoogleTagManager_Helper</class>
+            </googletagmanager>
+        </helpers>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <googletagmanager>
+                    <file>googletagmanager.xml</file>
+                </googletagmanager>
+            </updates>
+        </layout>
+    </frontend>
+    <default>
+        <google>
+            <tagmanager>
+                <transaction>1</transaction>
+            </tagmanager>
+        </google>
+    </default>
+</config>

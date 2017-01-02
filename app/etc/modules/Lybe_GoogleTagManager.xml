@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Lybe_GoogleTagManager>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_GoogleAnalytics />
+            </depends>
+        </Lybe_GoogleTagManager>
+    </modules>
+</config>
